@@ -2,9 +2,7 @@
 html {
     max-width: 500px;
 }
-#logoheader {
-    max-width: 26px;
-}
+
 header {
     background-color: black;
     text-align: center;
@@ -128,5 +126,6 @@ margin: 1em auto;
 }
 
 .contatti {
-    margin: 1em auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
