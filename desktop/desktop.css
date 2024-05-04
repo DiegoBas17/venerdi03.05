@@ -1,0 +1,50 @@
+html {
+    min-width: 1366px;
+    max-width: 1920px;
+}
+body {
+    text-align: center;
+}
+/* grandezze alle h */
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 170%;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+h4 {
+    font-size: 120%;
+}
+/* header */
+header {
+    background-color: black;
+}
+/* box intestazione */
+nav {
+    background-image: url(../images/banner.jpg);
+    padding: 10vh 10vw;
+}
+/* blocco in orizzontale */
+.sectionhorizontal {
+    height: 426px;
+    margin-bottom: 10vh;
+}
+
+.sectionhorizontal .boxhorizontal {
+    display: inline-block;
+}
+
+.textboxhorizontal {
+margin: 7vh;
+}
+
+.boxhorizontal {
+    height: 426px;
+    width: 426px;
+}
