@@ -108,7 +108,7 @@ h4 {
 footer {
     background-color: #25a2c3;
     color: white;
-    margin: 2em auto;
+    padding: 2em;
 }
 
 hr {
@@ -126,8 +126,8 @@ margin: 1em auto;
 }
 
 .contatti {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
 }
 
 p {
