@@ -5,35 +5,64 @@ html {
 body {
     text-align: center;
 }
-/* grandezze alle h */
+/* formattazione dei testi*/
 h1 {
     font-size: 200%;
+    color: #25a2c3;
+    margin: 1vh;
 }
 
 h2 {
     font-size: 170%;
+    margin: 1vh;
 }
 
 h3 {
     font-size: 140%;
+    margin: 1vh;
 }
 
 h4 {
     font-size: 120%;
+    color: #25a2c3;
+    margin: 1vh;
+}
+
+p {
+    margin: 1vh;
+    line-height: 3vh;
 }
 /* header */
 header {
     background-color: black;
+    text-align: left;
+}
+
+#logo {
+    max-height: 5vh;
+    padding: 3vh;
 }
 /* box intestazione */
 nav {
     background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
     padding: 10vh 10vw;
+}
+
+button {
+    color: white;
+    background-color: #f04c2f;
+    border-radius: 10%;
+    border: none;
+    padding: 1em;
+    margin: 2vh;
 }
 /* blocco in orizzontale */
 .sectionhorizontal {
     height: 426px;
-    margin-bottom: 10vh;
+    margin-bottom: 22vh;
+    margin-top: 10vh;
 }
 
 .sectionhorizontal .boxhorizontal {
@@ -41,10 +70,25 @@ nav {
 }
 
 .textboxhorizontal {
-margin: 7vh;
+margin: 2vh;
 }
 
 .boxhorizontal {
     height: 426px;
     width: 426px;
+    text-align: left;
+    margin-left: 3vw;
+}
+
+#notebook {
+    border-radius: 50%;
+}
+/* blocco rosso */
+article {
+    background-color: #e22d0e;
+    color: white;
+}
+/* secondo blocco orizzontale */
+aside .secondblockhorizontal {
+    display: inline-block;
 }
