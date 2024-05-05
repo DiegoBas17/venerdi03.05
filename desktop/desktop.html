@@ -6,6 +6,10 @@
     <title>Epicode</title>
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../desktop/desktop.css" />
+    <!-- link google font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+    </style>
   </head>
   <body>
     <header>
@@ -14,13 +18,13 @@
     <main>
       <nav>
         <!-- box intestazione -->
-        <h1>Corso Web Developer</h1>
+        <h1 class="headings">Corso Web Developer</h1>
         <p>
           Smetti di inseguire i titoli, inizia a lavorare. Mentre tutti vogliono
           arricchire il CV, tu <br />
           pensa ad arricchire le tue competenze.
         </p>
-        <button>PARTIAMO!</button>
+        <button class="headings">PARTIAMO!</button>
       </nav>
       <section class="sectionhorizontal">
         <!-- blocco in orizzontale -->
@@ -64,57 +68,58 @@
     <article>
       <!-- Blocco rosso-->
       <section>
-        <h3>Epicode garantisce</h3>
-        <p>
+        <h3 class="headings">Epicode garantisce</h3>
+        <p id="testimony">
           "3 mesi intensivi di corso che cambieranno radicalmente la tua vita".
         </p>
         <h5>Mario Rossi</h5>
-        <p>CEO, Epicode</p>
+        <p id="ceotestimony">CEO, Epicode</p>
       </section>
     </article>
     <aside>
       <!-- secondo blocco orizzontale -->
       <section class="secondblockhorizontal">
-        <img src="../images/foto1.jpg" alt="foto1" />
-        <div>
+        <img src="../images/foto1.jpg" alt="foto1" class="foto2blocco" />
+        <section class="textbox2">
           <h4>Il tuo PC</h4>
           <p>
             Se vuoi diventare developer è l&#39;unico <br />
             strumento di cui hai bisogno.
           </p>
-        </div>
+        </section>
       </section>
       <section class="secondblockhorizontal">
-        <img src="../images/foto2.jpg" alt="foto2" />
-        <div>
+        <img src="../images/foto2.jpg" alt="foto2" class="foto2blocco" />
+        <section class="textbox2">
           <h4>Impara ora</h4>
           <p>
             Impara da chi diventerai tra qualche <br />
             anno, e diventa una rockstar come loro.
           </p>
-        </div>
+        </section>
       </section>
       <section class="secondblockhorizontal">
-        <img src="../images/foto3.jpg" alt="foto3" />
-        <div>
+        <img src="../images/foto3.jpg" alt="foto3" class="foto2blocco" />
+        <section class="textbox2">
           <h4>Lavora subito</h4>
           <p>
             Sappiamo cosa vogliono le aziende, <br />
             perché lavoriamo con loro.
           </p>
-        </div>
+        </section>
       </section>
     </aside>
     <footer>
-      <h2>Contattaci</h2>
-      <section>
-        <p><a href="#">+(39)11223456</a></p>
-        <p>
-          <a href="#">info@epicode.school</a>
+      <!-- footer -->
+      <h2 class="headings">Contattaci</h2>
+      <section class="boxtextfoot">
+        <p class="textfoot">
+          <a href="#" class="linkfoot">+(39)11223456</a><br />
+          <a href="#" class="linkfoot">info@epicode.school</a><br />
+          Via Appia 1 - 00100 Roma (RM)
         </p>
-        <p>Via Appia 1 - 00100 Roma (RM)</p>
         <hr />
-        <p>&#169;2021. Immagini di <a href="#">Pixabay</a></p>
+        <p>&#169;2021. Immagini di <a href="#" class="linkfoot">Pixabay</a></p>
       </section>
     </footer>
   </body>

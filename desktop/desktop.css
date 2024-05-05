@@ -4,6 +4,10 @@ html {
 }
 body {
     text-align: center;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+
 }
 /* formattazione dei testi*/
 h1 {
@@ -19,7 +23,7 @@ h2 {
 
 h3 {
     font-size: 140%;
-    margin: 1vh;
+    margin: 3vh;
 }
 
 h4 {
@@ -28,10 +32,31 @@ h4 {
     margin: 1vh;
 }
 
+h5 {
+    font-size: 105%;
+    margin-top: 3vh;
+}
+
 p {
     margin: 1vh;
     line-height: 3vh;
 }
+
+.headings {
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#testimony {
+font-style: oblique;
+}
+
+#ceotestimony {
+font-size: 75%;
+}
+
 /* header */
 header {
     background-color: black;
@@ -87,8 +112,44 @@ margin: 2vh;
 article {
     background-color: #e22d0e;
     color: white;
+    padding: 4vh;
 }
 /* secondo blocco orizzontale */
 aside .secondblockhorizontal {
     display: inline-block;
+    margin: 3vh;
 }
+
+.foto2blocco {
+height: 25vh;
+}
+
+.textbox2 {
+    border: solid 2px #dee1e3;
+    border-top: none;
+    margin-top: 0
+}
+/* footer */
+footer {
+    background-color: #25a2c3;
+    color: white;
+    padding: 3vh;
+}
+
+h2 {
+    margin: auto 41%;
+    text-align: left;
+}
+
+.boxtextfoot {
+    margin: auto 40%;
+}
+
+.textfoot {
+    text-align: left;
+}
+
+.linkfoot {
+    color: #c8e7f0;
+}
+
